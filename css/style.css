@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(195deg 81% 16%);
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 50px;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+
+.carte {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.box {
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
