@@ -1,5 +1,13 @@
 let boxNumero = document.querySelector('.carte');
 
+let container = document.querySelector('.container')
+
+const elemento = document.createElement('a')
+
+boxNumero.append("qualcosa da appendere", elemento)
+
+
+
 
 
 for (let numero = 1; numero <= 100; numero++) {
@@ -21,5 +29,4 @@ for (let numero = 1; numero <= 100; numero++) {
 
 
 }
-
 
