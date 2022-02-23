@@ -16,7 +16,7 @@ h1 {
 
 
 .container {
-    width: 1000px;
+    width: 1300px;
     margin: 50px auto;
     text-align: center;
 }
@@ -31,11 +31,27 @@ h1 {
 
 
 .box {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: hsl(195deg 81% 39%);
+}
+
+
+
+.fizz {
+    background-color: hsl(164deg 90% 44%);
+}
+
+
+.buzz {
+    background-color: yellow;
+}
+
+
+.fizzbuzz {
+    background-color: red;
 }
