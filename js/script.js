@@ -1,12 +1,12 @@
 let boxNumero = document.querySelector('.carte');
 
-let container = document.querySelector('.container')
+let container = document.querySelector('.container');
 
-const elemento = document.createElement('a')
+const elemento = document.createElement('div');
 
-boxNumero.append("qualcosa da appendere", elemento)
+container.append("qualcosa da appendere", elemento);
 
-
+elemento.classList.add('buzz');
 
 
 
