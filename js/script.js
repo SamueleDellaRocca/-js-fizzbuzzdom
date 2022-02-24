@@ -2,11 +2,7 @@ let boxNumero = document.querySelector('.carte');
 
 let container = document.querySelector('.container');
 
-const elemento = document.createElement('div');
 
-container.append("qualcosa da appendere", elemento);
-
-elemento.classList.add('buzz');
 
 
 
@@ -29,4 +25,6 @@ for (let numero = 1; numero <= 100; numero++) {
 
 
 }
+
+
 
